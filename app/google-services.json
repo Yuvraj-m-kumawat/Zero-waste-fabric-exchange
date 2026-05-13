@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "646692926651",
+    "project_id": "kutirakone-fee4b",
+    "storage_bucket": "kutirakone-fee4b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646692926651:android:cfe0e228448d809659259e",
+        "android_client_info": {
+          "package_name": "com.example.kutirakone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjitpI9r__hyWZyu_1oBWUDW1B_kKZU0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646692926651:android:131302c39aac80e959259e",
+        "android_client_info": {
+          "package_name": "com.yuvraj.kutirakone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjitpI9r__hyWZyu_1oBWUDW1B_kKZU0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

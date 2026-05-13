@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="40dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KUTIRA-KONE"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#2D5A27"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zero Waste Fabric Exchange"
+        android:textSize="12sp"
+        android:textColor="#4CAF50"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login with Phone Number"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="start"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+91 -"
+            android:padding="12dp"
+            android:background="@drawable/edit_text_background"
+            android:layout_marginEnd="8dp"/>
+
+        <EditText
+            android:id="@+id/etPhoneNumber"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="9876543210"
+            android:inputType="phone"
+            android:padding="12dp"
+            android:background="@drawable/edit_text_background"/>
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSendOtp"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:text="Send OTP"
+        android:textAllCaps="false"
+        app:cornerRadius="8dp"
+        app:backgroundTint="#2D5A27"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:layout_marginTop="16dp"
+        android:textColor="#777777"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter OTP"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="start"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="12dp">
+        <!-- Simplified OTP inputs -->
+        <EditText android:layout_width="45dp" android:layout_height="50dp" android:gravity="center" android:inputType="number" android:maxLength="1" android:background="@drawable/edit_text_background" android:layout_margin="4dp"/>
+        <EditText android:layout_width="45dp" android:layout_height="50dp" android:gravity="center" android:inputType="number" android:maxLength="1" android:background="@drawable/edit_text_background" android:layout_margin="4dp"/>
+        <EditText android:layout_width="45dp" android:layout_height="50dp" android:gravity="center" android:inputType="number" android:maxLength="1" android:background="@drawable/edit_text_background" android:layout_margin="4dp"/>
+        <EditText android:layout_width="45dp" android:layout_height="50dp" android:gravity="center" android:inputType="number" android:maxLength="1" android:background="@drawable/edit_text_background" android:layout_margin="4dp"/>
+        <EditText android:layout_width="45dp" android:layout_height="50dp" android:gravity="center" android:inputType="number" android:maxLength="1" android:background="@drawable/edit_text_background" android:layout_margin="4dp"/>
+        <EditText android:layout_width="45dp" android:layout_height="50dp" android:gravity="center" android:inputType="number" android:maxLength="1" android:background="@drawable/edit_text_background" android:layout_margin="4dp"/>
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        android:textAllCaps="false"
+        app:cornerRadius="8dp"
+        app:backgroundTint="#2D5A27"
+        app:icon="@android:drawable/ic_lock_idle_lock"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By continuing, you agree to our\nTerms &amp; Conditions and Privacy Policy"
+        android:textSize="10sp"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:textColor="#777777"/>
+
+</LinearLayout>
